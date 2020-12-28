@@ -5,6 +5,11 @@ import store from "./store";
 
 Vue.config.productionTip = false;
 
+import ZmUI from '../packages/index'
+ 
+Vue.use(ZmUI);
+
+
 new Vue({
   router,
   store,
