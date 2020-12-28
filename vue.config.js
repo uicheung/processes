@@ -2,7 +2,7 @@ const path = require("path");
 
 // process.env.VUE_APP_BACKURL
 const vueConfig = {
-  publicPath: process.env.NODE_ENV === 'production' ? '/processes/' : '/', //由于我的项目在github上名为zm-ui,所以我的project-name为zm-ui
+  publicPath: process.env.NODE_ENV === 'production' ? '/project-name/' : '/', //由于我的项目在github上名为zm-ui,所以我的project-name为zm-ui
   lintOnSave: false,
   pages: {
     index: {
@@ -25,7 +25,7 @@ const vueConfig = {
       .end()
       .use("babel")
       .loader("babel-loader");
-  },
+  }
 
 }
 

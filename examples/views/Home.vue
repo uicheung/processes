@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-<zm-test bgColor="blue"></zm-test>
+    <zm-test bgColor="blue"></zm-test>
     <img alt="Vue logo" src="../assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js App" />
   </div>
@@ -11,10 +11,13 @@
 import HelloWorld from "@/components/HelloWorld.vue";
 
 
+ 
+/// Vue.use(ZmUI);
 export default {
   name: "Home",
   components: {
     HelloWorld,
+
    //  pro
   },
   mounted(){
